@@ -1,0 +1,7 @@
+From the "Programmers Guide to Mura CMS":
+
+"Every site in your Mura instance has a local contentRenderer.cfc located at {siteID}/includes/contentRenderer.cfc. It simply extends the base mura.content.contentRenderer component. It is provided to allow you to override or add new rendering behaviours on a per-site basis. In addition, all local contentRenderer methods are available from the Mura Scope site-specific events."
+
+This repo is simply a place to store generic enhancements/extensions on the Mura codebase to be used in any "site" and/or theme.
+
+To make things (hopefully) easy, the files are stored in the hierarchy that you would find them in the Mura package.
