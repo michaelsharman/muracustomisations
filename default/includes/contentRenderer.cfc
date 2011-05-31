@@ -1,6 +1,7 @@
 <cfcomponent extends="mura.content.contentRenderer">
 
 
+	<!--- Added an extra argument [bool] to decide whether or not to render the last breadcrumb item as a link (default) or plain text --->
 	<cffunction name="dspCrumblistLinks"  output="false" returntype="string"> 
 		<cfargument name="id" type="string" default="crumblist">
 		<cfargument name="separator" type="string" default="">
